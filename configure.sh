@@ -1,0 +1,1 @@
+CMake -S ./ -B out/buildWithGCC -G "MinGW Makefiles"
