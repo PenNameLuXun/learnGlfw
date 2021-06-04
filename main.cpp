@@ -1,12 +1,13 @@
 #include<iostream>
 #include "GLFW/glfw3.h"
+#include "configure.h"
 
 
 float add(float ,float);
 int main(){
-//	std::cout<<"Hi, baby"<<std::endl;
-//	std::cout<<"result of 6.2 + 145.67 ="<<add(6.2,145.67)<<std::endl;
-    //std::getchar();
+    std::cout<<"Hi, baby"<<std::endl;
+    std::cout<<"result of 6.2 + 145.67 ="<<add(6.2,145.67)<<std::endl;
+    std::cout<<"version :"<<VERSION_MAJOR<<"."<<VERSION_MINOR<<std::endl;
 
     glfwInit();
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);

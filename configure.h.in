@@ -1,0 +1,7 @@
+#ifndef CONFIGURE_H
+#define CONFIGURE_H
+
+#define VERSION_MAJOR "@goodName_VERSION_MAJOR@"
+#define VERSION_MINOR "@goodName_VERSION_MINOR@"
+
+#endif
